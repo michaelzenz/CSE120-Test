@@ -6,7 +6,7 @@ in your proj root, do:
 ```
 git init
 git remote add test https://github.com/MICHAEL-ZENZ/CSE120-Test.git
-git pull test master
+git pull test pa1
 ```
 
 # How to Use

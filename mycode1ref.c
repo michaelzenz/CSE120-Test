@@ -11,9 +11,6 @@
 #include "sys.h"
 #include "mycode1.h"
 
-//My variables
-CONTEXT ctxArr[MAXPROCS];
-
 /* 	NewContext(p, c) will be called by the kernel whenever a new
  * 	process	is created. This is essentially a notification (which you
  * 	will make use of) that this newly created process has an ID of p,
@@ -28,7 +25,6 @@ void NewContext(int p, CONTEXT *c)
 	// c: initial context for this process
 {
 	/* your code here */
-	memcpy(&ctxArr[p],c,sizeof(CONTEXT));
 }
 
 /* 	MySwitchContext(p) should cause a context switch from the calling
@@ -48,6 +44,7 @@ void NewContext(int p, CONTEXT *c)
 int MySwitchContext(int p)
 	// p: ID of process to switch to
 {
+	/* your code here */
 
 	return(RefSwitchContext(p));	// remove call to RefSwitchContext(p)
 }

@@ -27,3 +27,8 @@ pa1eO=$(./pa1e)
 pa1eRefO=$(./pa1eRef)
 diff -c <(echo $pa1eO) <(echo $pa1eRefO)|grep -v "Umix"|grep  !
 echo 
+echo pa1f
+pa1fO=$(./pa1f)
+pa1fRefO=$(./pa1fRef)
+diff -c <(echo $pa1fO) <(echo $pa1fRefO)|grep -v "Umix"|grep  !
+echo 

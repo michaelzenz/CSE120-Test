@@ -22,6 +22,9 @@ will run both the pa1 programs and pa1Ref programs and then output their differe
 ## WARNING:
 > It is extremely important that no solution code is allowed in this repo(by the way if there is I will be responsible), so you are welcome to make pull request, but please understand that you are responsible for it and I cant make you a collaborator.
 
+> Also, if you fork the repo, that means you own it and if you upload something bad to your own repo, you will be responsible(Not me) so be careful
+
+If you write some other files, remember to add it to .gitignore
 You are welcome to modify or add new test files.
 Different homeworks will use different branches.
 

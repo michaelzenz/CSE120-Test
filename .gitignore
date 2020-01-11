@@ -3,7 +3,7 @@ mycode1.h
 *.o
 aux.h
 pa1.txt
-pa1a
+pa1*
 pa1*Ref
 pa1*.c
 sys.h
